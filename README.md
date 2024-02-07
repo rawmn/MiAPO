@@ -17,16 +17,16 @@ This Python class represents an Archer character in a game. The Archer has attri
 - get_damage(self, damage): Receive damage from an enemy attack.
 
 ### Example Usage:
-python
-import random
+    python
+    import random
 
-class Archer:
-    name = ''
-    hp = 0
-    damage = 0
-    accuracy = 0
-    agility = 0
-
+    class Archer:
+        name = ''
+        hp = 0
+        damage = 0
+        accuracy = 0
+        agility = 0
+    
     def init(self, name, hp, damage, accuracy, agility):
         self.name = name
         self.hp = hp
